@@ -1,0 +1,22 @@
+<html ng-app>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <label>First name:</label>
+      <input type="text" ng-model="firstName" placeholder="Enter a first name here">
+	  <label>Last name:</label>
+	  <input type="text" ng-model="lastName" placeholder="Enter a last name here">
+	  <label>Enable:</label>
+	  <input type="checkbox" ng-model="enabled" placeholder="Enable">
+	  <label>Password:</label>
+	  <input type="password" ng-model="password" placeholder="password">
+      <hr>
+      <h1>Hello {{firstName}} {{lastName}}!</h1>
+	  <p>{{enabled}}</p>
+	  <p>{{password}}</p>
+	  
+    </div>
+  </body>
+</html>
